@@ -47,9 +47,17 @@ public class PlayerMovement : MonoBehaviour {
 	
 	public void QueuedMoveTo(Vector3 position)
 	{
+		if(queuedMoves.Count == 0)
+		{
+			target.z = 0;
+			GameObject currentMoveFlag = (GameObject) Instantiate(FLAG_PREFAB, target, Quaternion.identity);
+			currentMoveFlag.renderer.enabled = false;
+			queuedMoves.Add (currentMoveFlag);
+		}
+		
 		position.z = 0;
-		GameObject flag = (GameObject) Instantiate(FLAG_PREFAB, position, Quaternion.identity);
-		queuedMoves.Add (flag);
+		GameObject queuedMoveflag = (GameObject) Instantiate(FLAG_PREFAB, position, Quaternion.identity);
+		queuedMoves.Add (queuedMoveflag);
 	}
 	
 	void RemoveFromQueue(GameObject flag)

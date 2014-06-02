@@ -1,0 +1,819 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="DemoLevelButton.svg">
+  <defs
+     id="defs4">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4531">
+      <stop
+         style="stop-color:#333333;stop-opacity:1"
+         offset="0"
+         id="stop4533" />
+      <stop
+         style="stop-color:#1a1a1a;stop-opacity:1"
+         offset="1"
+         id="stop4535" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4378"
+       inkscape:collect="always">
+      <stop
+         id="stop4380"
+         offset="0"
+         style="stop-color:#d40000;stop-opacity:1" />
+      <stop
+         id="stop4382"
+         offset="1"
+         style="stop-color:#000000;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4039"
+       inkscape:collect="always">
+      <stop
+         id="stop4041"
+         offset="0"
+         style="stop-color:#333333;stop-opacity:1" />
+      <stop
+         id="stop4043"
+         offset="1"
+         style="stop-color:#1a1a1a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3835">
+      <stop
+         style="stop-color:#f9f9f9;stop-opacity:1;"
+         offset="0"
+         id="stop3837" />
+      <stop
+         style="stop-color:#f9f9f9;stop-opacity:0;"
+         offset="1"
+         id="stop3839" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3816">
+      <stop
+         style="stop-color:#f2f2f2;stop-opacity:1"
+         offset="0"
+         id="stop3818" />
+      <stop
+         style="stop-color:#f9f9f9;stop-opacity:0;"
+         offset="1"
+         id="stop3820" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3805">
+      <stop
+         style="stop-color:#ff2a2a;stop-opacity:1"
+         offset="0"
+         id="stop3807" />
+      <stop
+         style="stop-color:#000000;stop-opacity:1"
+         offset="1"
+         id="stop3809" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3787">
+      <stop
+         style="stop-color:#999999;stop-opacity:1"
+         offset="0"
+         id="stop3789" />
+      <stop
+         style="stop-color:#1a1a1a;stop-opacity:1"
+         offset="1"
+         id="stop3791" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3011">
+      <stop
+         style="stop-color:#999999;stop-opacity:1"
+         offset="0"
+         id="stop3013" />
+      <stop
+         style="stop-color:#1a1a1a;stop-opacity:1"
+         offset="1"
+         id="stop3015" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3011"
+       id="linearGradient3017"
+       x1="71.215752"
+       y1="108.87971"
+       x2="67.175148"
+       y2="314.95084"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(1.0101525,409.60199)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3787"
+       id="linearGradient3793"
+       x1="107.14286"
+       y1="256.64789"
+       x2="107.14286"
+       y2="66.647896"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(1.0101525,409.60199)" />
+    <filter
+       inkscape:collect="always"
+       id="filter3795">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="3.6099212"
+         id="feGaussianBlur3797" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter3799">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.3043953"
+         id="feGaussianBlur3801" />
+    </filter>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3805"
+       id="radialGradient3811"
+       cx="362.14285"
+       cy="202.95287"
+       fx="362.14285"
+       fy="202.95287"
+       r="241.66869"
+       gradientTransform="matrix(1.8475689,0.0391607,-0.01026276,0.48402648,-303.84807,490.97641)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3816"
+       id="linearGradient3822"
+       x1="382.18661"
+       y1="319.12195"
+       x2="382.18661"
+       y2="103.80278"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.98490959,0,0,1,6.5506605,409.60199)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3835"
+       id="linearGradient3841"
+       x1="53.538086"
+       y1="91.202034"
+       x2="28.284271"
+       y2="126.93618"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(1.0101525,409.60199)" />
+    <filter
+       inkscape:collect="always"
+       id="filter3843">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.4091973"
+         id="feGaussianBlur3845" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4531"
+       id="linearGradient4037"
+       x1="123.74368"
+       y1="122.51677"
+       x2="122.22845"
+       y2="264.95502"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.0451161,1.0101525,401.05227)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3011"
+       id="linearGradient4366"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(5.2958667,112.45913)"
+       x1="71.215752"
+       y1="108.87971"
+       x2="67.175148"
+       y2="314.95084" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3787"
+       id="linearGradient4368"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(5.2958667,112.45913)"
+       x1="107.14286"
+       y1="256.64789"
+       x2="107.14286"
+       y2="66.647896" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4039"
+       id="linearGradient4370"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.0451161,5.2958667,103.90941)"
+       x1="123.74368"
+       y1="122.51677"
+       x2="122.22845"
+       y2="264.95502" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4378"
+       id="radialGradient4372"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.5162283,0.00739536,-0.00233563,0.47829675,-181.17853,206.50001)"
+       cx="362.14285"
+       cy="202.95287"
+       fx="362.14285"
+       fy="202.95287"
+       r="241.66869" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3835"
+       id="linearGradient4374"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(5.2958667,112.45913)"
+       x1="53.538086"
+       y1="91.202034"
+       x2="28.284271"
+       y2="126.93618" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3816"
+       id="linearGradient4376"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.98490959,0,0,1,10.836375,112.45913)"
+       x1="382.18661"
+       y1="319.12195"
+       x2="382.18661"
+       y2="103.80278" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3816-8"
+       id="linearGradient3822-14"
+       x1="382.18661"
+       y1="319.12195"
+       x2="382.18661"
+       y2="103.80278"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.98490959,0,0,1,8.3863697,682.85714)" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3816-8">
+      <stop
+         style="stop-color:#f2f2f2;stop-opacity:1"
+         offset="0"
+         id="stop3818-6" />
+      <stop
+         style="stop-color:#f9f9f9;stop-opacity:0;"
+         offset="1"
+         id="stop3820-4" />
+    </linearGradient>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       id="filter3843-6">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.4091973"
+         id="feGaussianBlur3845-8" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3835-8"
+       id="linearGradient3841-9"
+       x1="53.538086"
+       y1="91.202034"
+       x2="28.284271"
+       y2="126.93618"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(2.8458597,682.85714)" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3835-8">
+      <stop
+         style="stop-color:#f9f9f9;stop-opacity:1;"
+         offset="0"
+         id="stop3837-3" />
+      <stop
+         style="stop-color:#f9f9f9;stop-opacity:0;"
+         offset="1"
+         id="stop3839-5" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3805-15">
+      <stop
+         style="stop-color:#d40000;stop-opacity:1"
+         offset="0"
+         id="stop3807-5" />
+      <stop
+         style="stop-color:#000000;stop-opacity:1"
+         offset="1"
+         id="stop3809-84" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4039-54"
+       id="linearGradient4037-0"
+       x1="123.74368"
+       y1="122.51677"
+       x2="122.22845"
+       y2="264.95502"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.0451161,2.8458597,674.30742)" />
+    <linearGradient
+       id="linearGradient4039-54"
+       inkscape:collect="always">
+      <stop
+         id="stop4041-7"
+         offset="0"
+         style="stop-color:#1a1a1a;stop-opacity:1" />
+      <stop
+         id="stop4043-21"
+         offset="1"
+         style="stop-color:#333333;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3787-9"
+       id="linearGradient3793-4"
+       x1="107.14286"
+       y1="256.64789"
+       x2="107.14286"
+       y2="66.647896"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(2.8458597,682.85714)" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3787-9">
+      <stop
+         style="stop-color:#999999;stop-opacity:1"
+         offset="0"
+         id="stop3789-9" />
+      <stop
+         style="stop-color:#1a1a1a;stop-opacity:1"
+         offset="1"
+         id="stop3791-0" />
+    </linearGradient>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       id="filter3795-3">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="3.6099212"
+         id="feGaussianBlur3797-0" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3011-50"
+       id="linearGradient3017-3"
+       x1="71.215752"
+       y1="108.87971"
+       x2="67.175148"
+       y2="314.95084"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(2.8458597,682.85714)" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3011-50">
+      <stop
+         style="stop-color:#999999;stop-opacity:1"
+         offset="0"
+         id="stop3013-76" />
+      <stop
+         style="stop-color:#1a1a1a;stop-opacity:1"
+         offset="1"
+         id="stop3015-7" />
+    </linearGradient>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       id="filter3799-8">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.3043953"
+         id="feGaussianBlur3801-3" />
+    </filter>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3805-15"
+       id="radialGradient4529"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.8477791,-0.0275106,0.00645687,0.4338676,-305.48178,798.55598)"
+       cx="362.14285"
+       cy="202.95287"
+       fx="362.14285"
+       fy="202.95287"
+       r="241.66869" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="208.07125"
+     inkscape:cy="531.23282"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1707"
+     inkscape:window-height="1006"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Button"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#1a1a1a;fill-opacity:1;stroke:none"
+       id="rect2985"
+       width="678.49756"
+       height="225.4633"
+       x="28.91551"
+       y="486.3754"
+       rx="68.229309"
+       ry="44.886913"
+       inkscape:export-filename="C:\Users\PeKay\Documents\GitHub\PKBound\ArtAssets\Demo\DemoButtonSelected.png"
+       inkscape:export-xdpi="135.75993"
+       inkscape:export-ydpi="135.75993" />
+    <rect
+       ry="41.420437"
+       rx="65.647957"
+       y="495.0813"
+       x="41.750477"
+       height="208.05148"
+       width="652.82758"
+       id="rect3005"
+       style="fill:url(#linearGradient3017);fill-opacity:1;stroke:none;filter:url(#filter3799)"
+       inkscape:export-filename="C:\Users\PeKay\Documents\GitHub\PKBound\ArtAssets\Demo\DemoButtonSelected.png"
+       inkscape:export-xdpi="135.75993"
+       inkscape:export-ydpi="135.75993" />
+    <rect
+       style="fill:url(#linearGradient3793);fill-opacity:1;stroke:none;filter:url(#filter3795)"
+       id="rect3007"
+       width="547.49994"
+       height="174.4843"
+       x="94.414299"
+       y="511.86487"
+       rx="55.056271"
+       ry="34.737633"
+       inkscape:export-filename="C:\Users\PeKay\Documents\GitHub\PKBound\ArtAssets\Demo\DemoButtonSelected.png"
+       inkscape:export-xdpi="135.75993"
+       inkscape:export-ydpi="135.75993" />
+    <rect
+       ry="32.941948"
+       rx="49.956421"
+       y="516.37463"
+       x="119.7717"
+       height="165.46471"
+       width="496.78516"
+       id="rect3009"
+       style="fill:url(#linearGradient4037);fill-opacity:1;stroke:none"
+       inkscape:export-filename="C:\Users\PeKay\Documents\GitHub\PKBound\ArtAssets\Demo\DemoButtonSelected.png"
+       inkscape:export-xdpi="135.75993"
+       inkscape:export-ydpi="135.75993" />
+    <rect
+       style="fill:url(#radialGradient3811);fill-opacity:1;stroke:none"
+       id="rect3803"
+       width="483.33737"
+       height="154.03613"
+       x="126.4956"
+       y="522.08893"
+       rx="48.604118"
+       ry="30.666662"
+       inkscape:export-filename="C:\Users\PeKay\Documents\GitHub\PKBound\ArtAssets\Demo\DemoButtonSelected.png"
+       inkscape:export-xdpi="135.75993"
+       inkscape:export-ydpi="135.75993" />
+    <path
+       style="fill:url(#linearGradient3841);fill-opacity:1;stroke:none"
+       d="m 84.492747,491.87226 c -31.504484,8.4395 -43.22419,16.84243 -51.769307,46.76776 2.049444,-33.85732 14.832145,-43.11173 51.769307,-46.76776 z"
+       id="path3833"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="C:\Users\PeKay\Documents\GitHub\PKBound\ArtAssets\Demo\DemoButtonSelected.png"
+       inkscape:export-xdpi="135.75993"
+       inkscape:export-ydpi="135.75993" />
+    <g
+       transform="translate(-1.5444246,410.55565)"
+       id="g3868-0"
+       inkscape:export-filename="C:\Users\PeKay\Documents\GitHub\PKBound\ArtAssets\Demo\DemoButtonSelected.png"
+       inkscape:export-xdpi="135.75993"
+       inkscape:export-ydpi="135.75993">
+      <text
+         sodipodi:linespacing="125%"
+         id="text3825-9"
+         y="217.97618"
+         x="157.58379"
+         style="font-size:144px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#f9f9f9;fill-opacity:1;stroke:none;font-family:Verdana;-inkscape-font-specification:Verdana"
+         xml:space="preserve"><tspan
+           style="font-size:72px;fill:#f9f9f9"
+           y="217.97618"
+           x="157.58379"
+           id="tspan3827-4"
+           sodipodi:role="line">Demo Level</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:144px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#de8787;fill-opacity:1;stroke:none;font-family:Verdana;-inkscape-font-specification:Verdana"
+         x="158.59393"
+         y="219.49141"
+         id="text3829-8"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan3831-8"
+           x="158.59393"
+           y="219.49141"
+           style="font-size:72px;fill:#de8787">Demo Level</tspan></text>
+    </g>
+    <path
+       style="fill:url(#linearGradient3822);fill-opacity:1;stroke:none;filter:url(#filter3843)"
+       d="m 158.73154,529.9461 419.56898,2.14285 c 12.59743,0.0643 25.46101,7.88203 25.46101,15.4546 l 0,36.67704 c 0,7.57255 -6.57376,8.21598 -13.50139,11.52601 -5.9519,2.84383 -116.4446,25.96927 -217.88519,25.96927 -82.36182,0 -223.03388,-22.51431 -229.12057,-25.25498 -7.15212,-3.22041 -11.27523,-6.4535 -11.29704,-14.02601 l -0.10461,-36.3199 c -0.0218,-7.57254 14.97708,-16.22967 26.87881,-16.16888 z"
+       id="rect3813"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ssssssssss"
+       inkscape:export-filename="C:\Users\PeKay\Documents\GitHub\PKBound\ArtAssets\Demo\DemoButtonSelected.png"
+       inkscape:export-xdpi="135.75993"
+       inkscape:export-ydpi="135.75993" />
+    <rect
+       ry="44.886913"
+       rx="68.229309"
+       y="189.23253"
+       x="33.201225"
+       height="225.4633"
+       width="678.49756"
+       id="rect4342"
+       style="fill:#1a1a1a;fill-opacity:1;stroke:none"
+       inkscape:export-filename="C:\Users\PeKay\Documents\GitHub\PKBound\ArtAssets\Demo\DemoButtonUnselected.png"
+       inkscape:export-xdpi="135.82953"
+       inkscape:export-ydpi="135.82953" />
+    <rect
+       style="fill:url(#linearGradient4366);fill-opacity:1;stroke:none;filter:url(#filter3799)"
+       id="rect4344"
+       width="652.82758"
+       height="208.05148"
+       x="46.03619"
+       y="197.93843"
+       rx="65.647957"
+       ry="41.420437"
+       inkscape:export-filename="C:\Users\PeKay\Documents\GitHub\PKBound\ArtAssets\Demo\DemoButtonUnselected.png"
+       inkscape:export-xdpi="135.82953"
+       inkscape:export-ydpi="135.82953" />
+    <rect
+       ry="34.737633"
+       rx="55.056271"
+       y="214.722"
+       x="98.70002"
+       height="174.4843"
+       width="547.49994"
+       id="rect4346"
+       style="fill:url(#linearGradient4368);fill-opacity:1;stroke:none;filter:url(#filter3795)"
+       inkscape:export-filename="C:\Users\PeKay\Documents\GitHub\PKBound\ArtAssets\Demo\DemoButtonUnselected.png"
+       inkscape:export-xdpi="135.82953"
+       inkscape:export-ydpi="135.82953" />
+    <rect
+       style="fill:url(#linearGradient4370);fill-opacity:1;stroke:none"
+       id="rect4348"
+       width="496.78516"
+       height="165.46471"
+       x="124.05742"
+       y="219.2318"
+       rx="49.956421"
+       ry="32.941948"
+       inkscape:export-filename="C:\Users\PeKay\Documents\GitHub\PKBound\ArtAssets\Demo\DemoButtonUnselected.png"
+       inkscape:export-xdpi="135.82953"
+       inkscape:export-ydpi="135.82953" />
+    <rect
+       ry="30.666662"
+       rx="48.604118"
+       y="224.94609"
+       x="130.78131"
+       height="154.03613"
+       width="483.33737"
+       id="rect4350"
+       style="fill:url(#radialGradient4372);fill-opacity:1;stroke:none"
+       inkscape:export-filename="C:\Users\PeKay\Documents\GitHub\PKBound\ArtAssets\Demo\DemoButtonUnselected.png"
+       inkscape:export-xdpi="135.82953"
+       inkscape:export-ydpi="135.82953" />
+    <path
+       sodipodi:nodetypes="ccc"
+       inkscape:connector-curvature="0"
+       id="path4352"
+       d="m 88.778461,194.7294 c -31.504484,8.4395 -43.22419,16.84243 -51.769307,46.76776 2.049444,-33.85732 14.832145,-43.11173 51.769307,-46.76776 z"
+       style="fill:url(#linearGradient4374);fill-opacity:1;stroke:none"
+       inkscape:export-filename="C:\Users\PeKay\Documents\GitHub\PKBound\ArtAssets\Demo\DemoButtonUnselected.png"
+       inkscape:export-xdpi="135.82953"
+       inkscape:export-ydpi="135.82953" />
+    <g
+       id="g4354"
+       transform="translate(2.7412896,113.41279)"
+       inkscape:export-filename="C:\Users\PeKay\Documents\GitHub\PKBound\ArtAssets\Demo\DemoButtonUnselected.png"
+       inkscape:export-xdpi="135.82953"
+       inkscape:export-ydpi="135.82953">
+      <text
+         xml:space="preserve"
+         style="font-size:144px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#f9f9f9;fill-opacity:1;stroke:none;font-family:Verdana;-inkscape-font-specification:Verdana"
+         x="157.58379"
+         y="217.97618"
+         id="text4356"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan4358"
+           x="157.58379"
+           y="217.97618"
+           style="font-size:72px;fill:#f9f9f9">Demo Level</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text4360"
+         y="219.49141"
+         x="158.59393"
+         style="font-size:144px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#de8787;fill-opacity:1;stroke:none;font-family:Verdana;-inkscape-font-specification:Verdana"
+         xml:space="preserve"><tspan
+           style="font-size:72px;fill:#de8787"
+           y="219.49141"
+           x="158.59393"
+           id="tspan4362"
+           sodipodi:role="line">Demo Level</tspan></text>
+    </g>
+    <path
+       sodipodi:nodetypes="ssssssssss"
+       inkscape:connector-curvature="0"
+       id="path4364"
+       d="m 163.01726,232.80324 419.56898,2.14285 c 12.59743,0.0643 25.46101,7.88203 25.46101,15.4546 l 0,36.67704 c 0,7.57255 -6.57376,8.21598 -13.50139,11.52601 -5.9519,2.84383 -116.4446,25.96927 -217.88519,25.96927 -82.36182,0 -223.03388,-22.51431 -229.12057,-25.25498 -7.15212,-3.22041 -11.27523,-6.4535 -11.29704,-14.02601 l -0.10461,-36.3199 c -0.0218,-7.57254 14.97708,-16.22967 26.87881,-16.16888 z"
+       style="fill:url(#linearGradient4376);fill-opacity:1;stroke:none;filter:url(#filter3843);opacity:0.8"
+       inkscape:export-filename="C:\Users\PeKay\Documents\GitHub\PKBound\ArtAssets\Demo\DemoButtonUnselected.png"
+       inkscape:export-xdpi="135.82953"
+       inkscape:export-ydpi="135.82953" />
+    <rect
+       style="fill:#1a1a1a;fill-opacity:1;stroke:none"
+       id="rect2985-6"
+       width="678.49756"
+       height="225.4633"
+       x="30.751221"
+       y="759.63055"
+       rx="68.229309"
+       ry="44.886913"
+       inkscape:export-filename="C:\Users\PeKay\Documents\GitHub\PKBound\ArtAssets\Demo\DemoButtonPressed.png"
+       inkscape:export-xdpi="135.82953"
+       inkscape:export-ydpi="135.82953" />
+    <rect
+       ry="41.420437"
+       rx="65.647957"
+       y="768.33643"
+       x="43.586182"
+       height="208.05148"
+       width="652.82758"
+       id="rect3005-4"
+       style="fill:url(#linearGradient3017-3);fill-opacity:1;stroke:none;filter:url(#filter3799-8)"
+       inkscape:export-filename="C:\Users\PeKay\Documents\GitHub\PKBound\ArtAssets\Demo\DemoButtonPressed.png"
+       inkscape:export-xdpi="135.82953"
+       inkscape:export-ydpi="135.82953" />
+    <rect
+       style="fill:url(#linearGradient3793-4);fill-opacity:1;stroke:none;filter:url(#filter3795-3)"
+       id="rect3007-4"
+       width="547.49994"
+       height="174.4843"
+       x="96.25"
+       y="785.12"
+       rx="55.056271"
+       ry="34.737633"
+       inkscape:export-filename="C:\Users\PeKay\Documents\GitHub\PKBound\ArtAssets\Demo\DemoButtonPressed.png"
+       inkscape:export-xdpi="135.82953"
+       inkscape:export-ydpi="135.82953" />
+    <rect
+       ry="32.941948"
+       rx="49.956421"
+       y="789.62976"
+       x="121.60742"
+       height="165.46471"
+       width="496.78516"
+       id="rect3009-1"
+       style="fill:url(#linearGradient4037-0);fill-opacity:1;stroke:none"
+       inkscape:export-filename="C:\Users\PeKay\Documents\GitHub\PKBound\ArtAssets\Demo\DemoButtonPressed.png"
+       inkscape:export-xdpi="135.82953"
+       inkscape:export-ydpi="135.82953" />
+    <rect
+       style="fill:url(#radialGradient4529);fill-opacity:1;stroke:none"
+       id="rect3803-9"
+       width="483.33737"
+       height="154.03613"
+       x="128.3313"
+       y="795.34406"
+       rx="48.604118"
+       ry="30.666662"
+       inkscape:export-filename="C:\Users\PeKay\Documents\GitHub\PKBound\ArtAssets\Demo\DemoButtonPressed.png"
+       inkscape:export-xdpi="135.82953"
+       inkscape:export-ydpi="135.82953" />
+    <path
+       style="fill:url(#linearGradient3841-9);fill-opacity:1;stroke:none"
+       d="m 86.32846,765.12741 c -31.50449,8.4395 -43.22419,16.84243 -51.76931,46.76776 2.04945,-33.85732 14.83215,-43.11173 51.76931,-46.76776 z"
+       id="path3833-5"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="C:\Users\PeKay\Documents\GitHub\PKBound\ArtAssets\Demo\DemoButtonPressed.png"
+       inkscape:export-xdpi="135.82953"
+       inkscape:export-ydpi="135.82953" />
+    <g
+       transform="translate(0.29128966,683.8108)"
+       id="g3868-0-5"
+       inkscape:export-filename="C:\Users\PeKay\Documents\GitHub\PKBound\ArtAssets\Demo\DemoButtonPressed.png"
+       inkscape:export-xdpi="135.82953"
+       inkscape:export-ydpi="135.82953">
+      <text
+         sodipodi:linespacing="125%"
+         id="text3825-9-7"
+         y="217.97618"
+         x="157.58379"
+         style="font-size:144px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#f9f9f9;fill-opacity:1;stroke:none;font-family:Verdana;-inkscape-font-specification:Verdana"
+         xml:space="preserve"><tspan
+           style="font-size:72px;fill:#f9f9f9"
+           y="217.97618"
+           x="157.58379"
+           id="tspan3827-4-4"
+           sodipodi:role="line">Demo Level</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:144px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#de8787;fill-opacity:1;stroke:none;font-family:Verdana;-inkscape-font-specification:Verdana"
+         x="158.59393"
+         y="219.49141"
+         id="text3829-8-7"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan3831-8-3"
+           x="158.59393"
+           y="219.49141"
+           style="font-size:72px;fill:#de8787">Demo Level</tspan></text>
+    </g>
+    <path
+       style="fill:url(#linearGradient3822-14);fill-opacity:1;stroke:none;filter:url(#filter3843-6);opacity:0.6"
+       d="m 160.56725,803.20125 419.56895,2.14285 c 12.5975,0.0643 25.461,7.88203 25.461,15.4546 l 0,36.67704 c 0,7.57255 -6.5737,8.21598 -13.5013,11.52601 -5.9519,2.84383 -116.4446,25.96927 -217.8852,25.96927 -82.36186,0 -223.03392,-22.51431 -229.12061,-25.25498 -7.15212,-3.22041 -11.27523,-6.4535 -11.29704,-14.02601 l -0.10461,-36.3199 c -0.0218,-7.57254 14.97708,-16.22967 26.87881,-16.16888 z"
+       id="rect3813-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ssssssssss"
+       inkscape:export-filename="C:\Users\PeKay\Documents\GitHub\PKBound\ArtAssets\Demo\DemoButtonPressed.png"
+       inkscape:export-xdpi="135.82953"
+       inkscape:export-ydpi="135.82953" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Text"
+     style="display:none">
+    <g
+       id="g3868">
+      <text
+         sodipodi:linespacing="125%"
+         id="text3825"
+         y="217.97618"
+         x="157.58379"
+         style="font-size:144px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#f9f9f9;fill-opacity:1;stroke:none;font-family:Verdana;-inkscape-font-specification:Verdana"
+         xml:space="preserve"><tspan
+           style="font-size:72px;fill:#f9f9f9"
+           y="217.97618"
+           x="157.58379"
+           id="tspan3827"
+           sodipodi:role="line">Demo Level</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:144px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#de8787;fill-opacity:1;stroke:none;font-family:Verdana;-inkscape-font-specification:Verdana"
+         x="158.59393"
+         y="219.49141"
+         id="text3829"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan3831"
+           x="158.59393"
+           y="219.49141"
+           style="font-size:72px;fill:#de8787">Demo Level</tspan></text>
+    </g>
+  </g>
+</svg>
