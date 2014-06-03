@@ -1,0 +1,139 @@
+fileFormatVersion: 2
+guid: c6fde7d31b814734fa71e71dee3d69fd
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: RedCharacter_LeftFoot
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 745
+        width: 148
+        height: 248
+      alignment: 9
+      pivot: {x: .541381896, y: .283913404}
+    - name: RedCharacter_RightFoot
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 745
+        width: 149
+        height: 248
+      alignment: 9
+      pivot: {x: .438343644, y: .296261191}
+    - name: RedCharacter_Head
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 609
+        width: 473
+        height: 419
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: RedCharacter_Backpack
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 434
+        width: 436
+        height: 160
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: RedCharacter_leftHand
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 452
+        width: 139
+        height: 157
+      alignment: 9
+      pivot: {x: .477969378, y: .256189823}
+    - name: RedCharacter_RightHand
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 421
+        width: 139
+        height: 157
+      alignment: 9
+      pivot: {x: .511014879, y: .246437415}
+    - name: RedCharacter_LeftArm
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 259
+        width: 147
+        height: 157
+      alignment: 9
+      pivot: {x: .35417828, y: .314704269}
+    - name: RedCharacter_RightArm
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 247
+        width: 147
+        height: 158
+      alignment: 9
+      pivot: {x: .604158342, y: .248042434}
+    - name: RedCharacter_LeftShoulder
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 5
+        width: 260
+        height: 205
+      alignment: 9
+      pivot: {x: .74144733, y: .522407174}
+    - name: RedCharacter_RightShoulder
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 0
+        width: 258
+        height: 204
+      alignment: 9
+      pivot: {x: .221073598, y: .500000119}
+  spritePackingTag: 
+  userData: 
