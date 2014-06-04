@@ -18,34 +18,42 @@ public class CameraControl : MonoBehaviour
 	{
 		float verticalCameraSize = camera.orthographicSize;
 		float horizontalCameraSize = verticalCameraSize * camera.aspect;
-	
-		if(Input.GetButton("CameraMovementRight"))
-		{
-			if((transform.position.x + SPEED) + horizontalCameraSize < screenBounds.max.x)
-			{
-				transform.position = new Vector3(transform.position.x + SPEED, transform.position.y, transform.position.z);
-			}
-		}
-		else if(Input.GetButton("CameraMovementLeft"))
-		{
-			if((transform.position.x - SPEED) - horizontalCameraSize > screenBounds.min.x)
-			{
-				transform.position = new Vector3(transform.position.x - SPEED, transform.position.y, transform.position.z);
-			}
-		}
 		
-		if(Input.GetButton("CameraMovementUp"))
+		if(Input.GetButton ("CenterCamera"))
 		{
-			if((transform.position.y + SPEED) + verticalCameraSize < screenBounds.max.y)
-			{
-				transform.position = new Vector3(transform.position.x, transform.position.y + SPEED, transform.position.z);
-			}
+			GameObject player = GameObject.FindGameObjectWithTag("Player");
+			transform.position = new Vector3(player.transform.position.x, player.transform.position.y, transform.position.z);
 		}
-		else if(Input.GetButton("CameraMovementDown"))
+		else
 		{
-			if((transform.position.y - SPEED) - verticalCameraSize > screenBounds.min.y)
+			if(Input.GetButton("CameraMovementRight"))
 			{
-				transform.position = new Vector3(transform.position.x, transform.position.y - SPEED, transform.position.z);
+				if((transform.position.x + SPEED) + horizontalCameraSize < screenBounds.max.x)
+				{
+					transform.position = new Vector3(transform.position.x + SPEED, transform.position.y, transform.position.z);
+				}
+			}
+			else if(Input.GetButton("CameraMovementLeft"))
+			{
+				if((transform.position.x - SPEED) - horizontalCameraSize > screenBounds.min.x)
+				{
+					transform.position = new Vector3(transform.position.x - SPEED, transform.position.y, transform.position.z);
+				}
+			}
+			
+			if(Input.GetButton("CameraMovementUp"))
+			{
+				if((transform.position.y + SPEED) + verticalCameraSize < screenBounds.max.y)
+				{
+					transform.position = new Vector3(transform.position.x, transform.position.y + SPEED, transform.position.z);
+				}
+			}
+			else if(Input.GetButton("CameraMovementDown"))
+			{
+				if((transform.position.y - SPEED) - verticalCameraSize > screenBounds.min.y)
+				{
+					transform.position = new Vector3(transform.position.x, transform.position.y - SPEED, transform.position.z);
+				}
 			}
 		}
 	}
