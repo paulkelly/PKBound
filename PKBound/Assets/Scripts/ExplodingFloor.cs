@@ -3,22 +3,16 @@ using System.Collections;
 
 [RequireComponent(typeof(BoxCollider2D))]
 public class ExplodingFloor : MonoBehaviour
-{
-	Color initialColour;
-	
+{	
 	public GameObject explosion;
 		
 	void Start()
-	{
-		initialColour = GetComponent<SpriteRenderer>().color;
-		
+	{		
 		GetComponent<BoxCollider2D>().enabled = false;
 	}
 
 	public void Explode()
-	{		
-		//GetComponent<SpriteRenderer>().color = Color.red;
-		
+	{				
 		Vector3 location = transform.position;
 		
 		location.z = location.z - 3;
@@ -35,8 +29,6 @@ public class ExplodingFloor : MonoBehaviour
 	void Reset()
 	{		
 		GetComponent<BoxCollider2D>().enabled = false;
-		
-		//GetComponent<SpriteRenderer>().color = initialColour;	
 	}
 	
 	

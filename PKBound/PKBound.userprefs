@@ -1,14 +1,16 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ExplodingFloor.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Player\PlayerManager.cs">
     <Files>
+      <File FileName="Assets\Scripts\CameraControl.cs" Line="25" Column="117" />
       <File FileName="Assets\Scripts\Player\RotateToFaceMovement.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\ExplodingFloor.cs" Line="28" Column="35" />
-      <File FileName="Assets\Scripts\Player\PlayerDeath.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Player\PlayerMovement.cs" Line="38" Column="4" />
+      <File FileName="Assets\Scripts\ExplodingFloor.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Player\PlayerMovement.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\StepByStepExplosionManager.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Menu\MenuButton.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Menu\GoToDemoLevel.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\LevelManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Player\PlayerManager.cs" Line="14" Column="35" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

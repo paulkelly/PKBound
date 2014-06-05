@@ -14,11 +14,25 @@ public class PlayerMovement : MonoBehaviour {
 	ArrayList queuedMoves = new ArrayList();
 
 	Animator anim;
+	
+	//Idle Animation
+	float boardMinTime = 6f;
+	float boardMaxTime = 12f;
+	
+	public float boardAnimationCooldown;
 
 	void Start()
 	{
 		anim = this.GetComponent<Animator>();
+		
+		Reset ();
+	}
+	
+	public void Reset()
+	{
+		boardAnimationCooldown = Random.Range(boardMinTime, boardMaxTime);
 		target = transform.position;
+		queuedMoves.Clear();
 	}
 
 	void FixedUpdate()
@@ -117,11 +131,28 @@ public class PlayerMovement : MonoBehaviour {
 	{
 		anim.SetBool("Walk", true);
 		anim.SetBool("Stop", false);
+		boardAnimationCooldown = Random.Range(boardMinTime, boardMaxTime);
 	}
 	
 	void StopWalkAnimation()
 	{
 		anim.SetBool("Walk", false);
 		anim.SetBool("Stop", true);
+		
+		boardAnimationCooldown -= Time.deltaTime;
+		if(boardAnimationCooldown < 0)
+		{
+			int boardAnimation = Random.Range(1, 3);
+			if(boardAnimation == 1)
+			{
+				anim.SetTrigger("IdleBoard1");
+			}
+			else
+			{
+				anim.SetTrigger("IdleBoard2");
+			}
+
+			boardAnimationCooldown = Random.Range(boardMinTime, boardMaxTime);
+		}
 	}
 }
