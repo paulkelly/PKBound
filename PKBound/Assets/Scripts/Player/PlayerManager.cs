@@ -10,6 +10,9 @@ public class PlayerManager : MonoBehaviour
 		transform.position = new Vector3(position.x, position.y, transform.position.z);
 		
 		GetComponent<PlayerMovement>().Reset();
+		
+		CenterCameraEvent e = new CenterCameraEvent();
+		GameEvents.GameEventManager.post(e);
 	}
 	
 	void KillPlayer()

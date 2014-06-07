@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\CameraControl.cs" />
      <Compile Include="Assets\Scripts\EnemyPatrol.cs" />
+     <Compile Include="Assets\Scripts\Events\CenterCameraEvent.cs" />
      <Compile Include="Assets\Scripts\Events\GameEvent.cs" />
      <Compile Include="Assets\Scripts\Events\GameEventListener.cs" />
      <Compile Include="Assets\Scripts\Events\GameEventManager.cs" />

@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour
 //			GetComponent<PlayerMovement>().MoveTo(target);
 //		}
 
-		if(Input.GetMouseButtonUp(1))
+		if(Input.GetMouseButtonUp(0) || Input.GetMouseButtonUp(1))
 		{
 			Ray mouseRay = Camera.main.ScreenPointToRay (Input.mousePosition);
 			

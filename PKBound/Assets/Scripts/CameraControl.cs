@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class CameraControl : MonoBehaviour
+public class CameraControl : MonoBehaviour, GameEvents.GameEventListener
 {
 
 	public float SPEED;
@@ -11,9 +11,15 @@ public class CameraControl : MonoBehaviour
 	
 	void Start()
 	{
+		GameEvents.GameEventManager.registerListener(this);
 		screenBounds = initalCameraBounds.renderer.bounds;
 	}
-
+	
+	void OnDisable()
+	{
+		GameEvents.GameEventManager.unregisterListener(this);
+	}
+	
 	void Update ()
 	{
 		float verticalCameraSize = camera.orthographicSize;
@@ -21,8 +27,7 @@ public class CameraControl : MonoBehaviour
 		
 		if(Input.GetButton ("CenterCamera"))
 		{
-			GameObject player = GameObject.FindGameObjectWithTag("Player");
-			transform.position = new Vector3(player.transform.position.x, player.transform.position.y, transform.position.z);
+			CenterCamera();
 		}
 		else
 		{
@@ -55,6 +60,20 @@ public class CameraControl : MonoBehaviour
 					transform.position = new Vector3(transform.position.x, transform.position.y - SPEED, transform.position.z);
 				}
 			}
+		}
+	}
+	
+	public void CenterCamera()
+	{
+		GameObject player = GameObject.FindGameObjectWithTag("Player");
+		transform.position = new Vector3(player.transform.position.x, player.transform.position.y, transform.position.z);
+	}
+	
+	public void receiveEvent(GameEvents.GameEvent e)
+	{
+		if(e.GetType().Name.Equals("CenterCameraEvent"))
+		{
+			CenterCamera();
 		}
 	}
 	

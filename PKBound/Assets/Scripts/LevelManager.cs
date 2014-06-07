@@ -9,8 +9,8 @@ public class LevelManager : MonoBehaviour, GameEvents.GameEventListener
 	public GameObject startRegion;
 	public GameObject endRegion;
 
-	List<GameObject> players = new List<GameObject>();
-	List<GameObject> livingPlayers = new List<GameObject>();
+public	List<GameObject> players = new List<GameObject>();
+public	List<GameObject> livingPlayers = new List<GameObject>();
 	List<GameObject> deadPlayers = new List<GameObject>();
 
 	// Use this for initialization
@@ -18,14 +18,25 @@ public class LevelManager : MonoBehaviour, GameEvents.GameEventListener
 	{
 		GameEvents.GameEventManager.registerListener(this);
 		
-		GameObject[] findPlayers = GameObject.FindGameObjectsWithTag("Player");
+		FindAllPlayers();
 		
-		for(int i=0; i<findPlayers.Length; i++)
-		{
-			players.Add(findPlayers[i]);
-			
-			livingPlayers.Add(findPlayers[i]);
+		foreach(GameObject player in players)
+		{			
+			livingPlayers.Add(player);
 		}
+	}
+	
+	void FindAllPlayers()
+	{
+		players.Clear();
+		GameObject findPlayers = GameObject.Find("GreenPlayer");
+		
+		players.Add(findPlayers);
+	}
+	
+	void OnDisable()
+	{
+		GameEvents.GameEventManager.unregisterListener(this);
 	}
 	
 	void PlayerDied(GameObject playerObject)
@@ -74,7 +85,7 @@ public class LevelManager : MonoBehaviour, GameEvents.GameEventListener
 	}
 	
 	public void receiveEvent(GameEvents.GameEvent e)
-	{
+	{	
 		if(e.GetType().Name.Equals("PlayerDeathEvent"))
 		{
 			PlayerDied(((PlayerDeathEvent)e).GetPlayer());

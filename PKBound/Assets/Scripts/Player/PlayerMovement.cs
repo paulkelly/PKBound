@@ -32,7 +32,7 @@ public class PlayerMovement : MonoBehaviour {
 	{
 		boardAnimationCooldown = Random.Range(boardMinTime, boardMaxTime);
 		target = transform.position;
-		queuedMoves.Clear();
+		ClearQueuedMoves();
 	}
 
 	void FixedUpdate()
