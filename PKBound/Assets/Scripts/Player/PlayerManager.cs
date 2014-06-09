@@ -23,6 +23,9 @@ public class PlayerManager : MonoBehaviour
 
 	void OnCollisionEnter2D(Collision2D collision)
 	{
-		KillPlayer();
+		if(collision.gameObject.tag.Equals("Enemy"))
+		{
+			KillPlayer();
+		}
 	}
 }

@@ -12,7 +12,7 @@ public class StepByStepExplosionManager : MonoBehaviour
 	private int currentStep = 0;
 	private float cooldown;
 	
-	void Start ()
+	void Awake ()
 	{		
 		delay = new float[steps] {1, 1};
 		
