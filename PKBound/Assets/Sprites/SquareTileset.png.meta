@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 39cc8576f3fb94249bdea4f3526f6171
+guid: ef83a436dfd47a446afb631a6381c426
 TextureImporter:
   serializedVersion: 2
   mipmaps:
@@ -45,74 +45,74 @@ TextureImporter:
     compressionQuality: 50
   spriteSheet:
     sprites:
-    - name: 0
+    - name: SquareTileset_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 1321
+        y: 1331
         width: 201
         height: 200
       alignment: 0
       pivot: {x: .5, y: .5}
-    - name: de
+    - name: SquareTileset_1
       rect:
         serializedVersion: 2
-        x: 233
-        y: 1193
-        width: 397
+        x: 271
+        y: 1221
+        width: 398
         height: 296
       alignment: 0
       pivot: {x: .5, y: .5}
     - name: SquareTileset_2
       rect:
         serializedVersion: 2
-        x: 707
-        y: 1099
+        x: 703
+        y: 1113
         width: 401
         height: 401
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: SquareTileset_3
       rect:
         serializedVersion: 2
-        x: 1182
-        y: 994
+        x: 1178
+        y: 1008
         width: 600
         height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: SquareTileset_4
       rect:
         serializedVersion: 2
-        x: 1817
-        y: 968
+        x: 1793
+        y: 985
         width: 97
         height: 526
       alignment: 0
-      pivot: {x: 0, y: 0}
-    - name: 1
+      pivot: {x: .5, y: .5}
+    - name: SquareTileset_5
       rect:
         serializedVersion: 2
         x: 0
-        y: 1115
+        y: 1125
         width: 201
         height: 201
       alignment: 0
       pivot: {x: .5, y: .5}
-    - name: ds
+    - name: SquareTileset_6
       rect:
         serializedVersion: 2
-        x: 238
-        y: 968
-        width: 397
+        x: 265
+        y: 996
+        width: 398
         height: 204
       alignment: 0
       pivot: {x: .5, y: .5}
-    - name: 2
+    - name: SquareTileset_7
       rect:
         serializedVersion: 2
         x: 3
-        y: 909
+        y: 919
         width: 201
         height: 201
       alignment: 0
@@ -120,73 +120,82 @@ TextureImporter:
     - name: SquareTileset_8
       rect:
         serializedVersion: 2
-        x: 230
-        y: 755
-        width: 101
-        height: 200
+        x: 358
+        y: 674
+        width: 303
+        height: 296
       alignment: 0
-      pivot: {x: 0, y: 0}
-    - name: dc
+      pivot: {x: .5, y: .5}
+    - name: SquareTileset_9
       rect:
         serializedVersion: 2
-        x: 345
-        y: 660
-        width: 303
-        height: 297
+        x: 697
+        y: 697
+        width: 401
+        height: 401
       alignment: 0
       pivot: {x: .5, y: .5}
     - name: SquareTileset_10
       rect:
         serializedVersion: 2
-        x: 701
-        y: 683
-        width: 401
-        height: 401
-      alignment: 0
-      pivot: {x: 0, y: 0}
-    - name: SquareTileset_11
-      rect:
-        serializedVersion: 2
-        x: 1192
-        y: 570
+        x: 1188
+        y: 584
         width: 585
         height: 411
       alignment: 0
-      pivot: {x: 0, y: 0}
-    - name: 3
+      pivot: {x: .5, y: .5}
+    - name: SquareTileset_11
       rect:
         serializedVersion: 2
         x: 7
-        y: 700
+        y: 710
         width: 200
         height: 200
       alignment: 0
       pivot: {x: .5, y: .5}
-    - name: wc
+    - name: SquareTileset_12
       rect:
         serializedVersion: 2
-        x: 69
-        y: 355
+        x: 22
+        y: 375
         width: 304
         height: 297
       alignment: 0
       pivot: {x: .5, y: .5}
-    - name: we
+    - name: SquareTileset_13
       rect:
         serializedVersion: 2
-        x: 453
-        y: 317
+        x: 377
+        y: 357
         width: 397
         height: 298
       alignment: 0
       pivot: {x: .5, y: .5}
-    - name: ws
+    - name: SquareTileset_14
       rect:
         serializedVersion: 2
-        x: 35
-        y: 114
-        width: 394
-        height: 205
+        x: 829
+        y: 422
+        width: 200
+        height: 203
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: SquareTileset_15
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 115
+        width: 393
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: SquareTileset_17
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 112
+        width: 207
+        height: 206
       alignment: 0
       pivot: {x: .5, y: .5}
   spritePackingTag: 

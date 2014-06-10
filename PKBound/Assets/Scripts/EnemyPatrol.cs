@@ -4,6 +4,7 @@ using System.Collections;
 public class EnemyPatrol : MonoBehaviour
 {
 	public float MOVEMENT_SPEED;
+	public bool USE_FORCES;
 	public GameObject FLAG_PREFAB;
 	
 	Vector3 target;
@@ -34,9 +35,13 @@ public class EnemyPatrol : MonoBehaviour
 		
 		Vector2 moveTo = new Vector2(target.x - transform.position.x, target.y - transform.position.y);
 		float distance = moveTo.magnitude;
-		if(distance > MOVEMENT_SPEED)
+		moveTo = moveTo.normalized;
+		if(USE_FORCES)
 		{
-			moveTo = moveTo.normalized;
+			rigidbody2D.AddForce(moveTo * MOVEMENT_SPEED * rigidbody2D.mass * rigidbody2D.drag);
+		}
+		else if(distance > MOVEMENT_SPEED)
+		{
 			transform.position = new Vector3(transform.position.x + (moveTo.x * MOVEMENT_SPEED), transform.position.y + (moveTo.y * MOVEMENT_SPEED), transform.position.z);
 		}
 		else

@@ -37,6 +37,7 @@ public class PlayerMovement : MonoBehaviour {
 
 	void FixedUpdate()
 	{		
+		rigidbody2D.velocity = Vector2.zero;
 		if(queuedMoves.Count > 0)
 		{
 			target = ((GameObject) queuedMoves[0]).transform.position;

@@ -1,0 +1,130 @@
+fileFormatVersion: 2
+guid: 64cd99c6ec780484ba4073993a4eb5f6
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: SquareTilesLarge_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1378
+        width: 401
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: SquareTilesLarge_1
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 988
+        width: 401
+        height: 799
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: SquareTilesLarge_2
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 1192
+        width: 97
+        height: 526
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: SquareTilesLarge_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 963
+        width: 401
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: SquareTilesLarge_4
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 1051
+        width: 98
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: SquareTilesLarge_5
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 1052
+        width: 99
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: SquareTilesLarge_6
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 423
+        width: 599
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: SquareTilesLarge_7
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 421
+        width: 599
+        height: 513
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: SquareTilesLarge_8
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 0
+        width: 585
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+  spritePackingTag: 
+  userData: 

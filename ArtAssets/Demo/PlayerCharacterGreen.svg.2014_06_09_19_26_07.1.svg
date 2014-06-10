@@ -22,11 +22,11 @@
        inkscape:collect="always"
        id="linearGradient10932">
       <stop
-         style="stop-color:#1a1a1a;stop-opacity:1;"
+         style="stop-color:#1a1a1a;stop-opacity:0.6"
          offset="0"
          id="stop10934" />
       <stop
-         style="stop-color:#1a1a1a;stop-opacity:0;"
+         style="stop-color:#1a1a1a;stop-opacity:0.06"
          offset="1"
          id="stop10936" />
     </linearGradient>
@@ -240,7 +240,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -250,14 +250,17 @@
      id="layer1">
     <path
        sodipodi:type="arc"
-       style="fill:url(#radialGradient10938);fill-opacity:1;stroke:none"
+       style="fill:url(#radialGradient10938);fill-opacity:1;stroke:none;"
        id="path10154"
        sodipodi:cx="1082.8835"
        sodipodi:cy="375.55997"
        sodipodi:rx="151.52289"
        sodipodi:ry="151.52289"
        d="m 1234.4064,375.55997 a 151.52289,151.52289 0 1 1 -303.04574,0 151.52289,151.52289 0 1 1 303.04574,0 z"
-       transform="matrix(1.7866666,0,0,1.7866666,-1472.102,96.498692)" />
+       transform="matrix(1.7866666,0,0,1.7866666,-1472.102,96.498692)"
+       inkscape:export-filename="C:\Users\PeKay\Documents\GitHub\PKBound\ArtAssets\Demo\PlayerShadow.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <g
        id="g10964">
       <path
@@ -360,11 +363,11 @@
        sodipodi:nodetypes="sssss"
        inkscape:connector-curvature="0"
        id="path4339"
-       d="m 238.28019,547.44543 c -17.25448,14.99341 -44.96823,10.83267 -61.90037,-9.29327 -16.93214,-20.12592 -20.85796,-61.29709 -5.19828,-74.81376 13.21309,-11.40499 50.75014,0.39191 67.68229,20.51784 16.93214,20.12594 16.67084,48.59578 -0.58364,63.58919 z"
+       d="m 246.85162,461.73114 c -17.25448,14.99341 -44.96823,10.83267 -61.90037,-9.29327 -16.93214,-20.12592 -20.85796,-61.29709 -5.19828,-74.81376 13.21309,-11.40499 50.75014,0.39191 67.68229,20.51784 16.93214,20.12594 16.67084,48.59578 -0.58364,63.58919 z"
        style="fill:#005a00;fill-opacity:1;stroke:#1a1a1a;stroke-width:7.89067936" />
     <g
        id="g4493"
-       transform="translate(-126.82596,-266.86802)">
+       transform="translate(-128.25453,-348.29659)">
       <rect
          ry="17.519264"
          rx="34.991924"
@@ -413,7 +416,7 @@
     </g>
     <g
        id="g4644"
-       transform="translate(-471.09514,514.60049)">
+       transform="translate(-473.09514,514.60049)">
       <path
          sodipodi:nodetypes="sssss"
          inkscape:connector-curvature="0"
@@ -435,13 +438,13 @@
     </g>
     <path
        style="fill:#006e00;fill-opacity:1;stroke:#1a1a1a;stroke-width:7.89067936"
-       d="m 33.04152,541.7819 c 17.25448,14.99341 44.96823,10.83267 61.90037,-9.29327 16.93215,-20.12592 20.85797,-61.29709 5.19829,-74.81376 -13.2131,-11.40499 -50.75015,0.39191 -67.6823,20.51784 -16.93214,20.12594 -16.67084,48.59578 0.58364,63.58919 z"
+       d="m 41.612949,456.06761 c 17.25448,14.99341 44.96823,10.83267 61.900371,-9.29327 16.93215,-20.12592 20.85797,-61.29709 5.19829,-74.81376 -13.213101,-11.40499 -50.750151,0.39191 -67.682301,20.51784 -16.93214,20.12594 -16.67084,48.59578 0.58364,63.58919 z"
        id="path4302"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="sssss" />
     <g
        id="g4322"
-       transform="translate(-15.108119,182.18131)">
+       transform="translate(-17.108119,182.18131)">
       <path
          style="fill:#008000;fill-opacity:1;stroke:#1a1a1a;stroke-width:11.95111942"
          d="m 26.464108,512.21991 c 0,34.66274 32.250376,62.76246 72.033221,62.76246 39.782861,0 90.691551,-35.64142 90.587741,-67.01159 -0.0875,-26.46912 -50.80488,-58.51334 -90.587741,-58.51334 -39.782845,0 -72.033221,28.09972 -72.033221,62.76247 z"
