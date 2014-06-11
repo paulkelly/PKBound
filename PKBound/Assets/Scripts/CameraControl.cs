@@ -6,8 +6,13 @@ public class CameraControl : MonoBehaviour, GameEvents.GameEventListener
 
 	public float SPEED;
 	
+	public float mouseScrollPercent;
+	
 	public GameObject initalCameraBounds;
 	Bounds screenBounds;
+	
+	float verticalCameraSize;
+	float horizontalCameraSize;
 	
 	void Start()
 	{
@@ -22,8 +27,8 @@ public class CameraControl : MonoBehaviour, GameEvents.GameEventListener
 	
 	void Update ()
 	{
-		float verticalCameraSize = camera.orthographicSize;
-		float horizontalCameraSize = verticalCameraSize * camera.aspect;
+		verticalCameraSize = camera.orthographicSize;
+		horizontalCameraSize = verticalCameraSize * camera.aspect;
 		
 		if(Input.GetButton ("CenterCamera"))
 		{
@@ -31,14 +36,14 @@ public class CameraControl : MonoBehaviour, GameEvents.GameEventListener
 		}
 		else
 		{
-			if(Input.GetButton("CameraMovementRight"))
+			if(Input.GetButton("CameraMovementRight") || mouseScrollRight())
 			{
 				if((transform.position.x + SPEED) + horizontalCameraSize < screenBounds.max.x)
 				{
 					transform.position = new Vector3(transform.position.x + SPEED, transform.position.y, transform.position.z);
 				}
 			}
-			else if(Input.GetButton("CameraMovementLeft"))
+			else if(Input.GetButton("CameraMovementLeft") || mouseScrollLeft())
 			{
 				if((transform.position.x - SPEED) - horizontalCameraSize > screenBounds.min.x)
 				{
@@ -46,14 +51,14 @@ public class CameraControl : MonoBehaviour, GameEvents.GameEventListener
 				}
 			}
 			
-			if(Input.GetButton("CameraMovementUp"))
+			if(Input.GetButton("CameraMovementUp") || mouseScrollUp())
 			{
 				if((transform.position.y + SPEED) + verticalCameraSize < screenBounds.max.y)
 				{
 					transform.position = new Vector3(transform.position.x, transform.position.y + SPEED, transform.position.z);
 				}
 			}
-			else if(Input.GetButton("CameraMovementDown"))
+			else if(Input.GetButton("CameraMovementDown") || mouseScrollDown())
 			{
 				if((transform.position.y - SPEED) - verticalCameraSize > screenBounds.min.y)
 				{
@@ -61,6 +66,77 @@ public class CameraControl : MonoBehaviour, GameEvents.GameEventListener
 				}
 			}
 		}
+	}
+	
+	bool mouseScrollLeft()
+	{
+		bool result = false;
+		
+		Vector3 target = GetMousePosition();
+		
+		float scrollSize = (horizontalCameraSize / 100f) * mouseScrollPercent;
+		
+		if(target.x < (transform.position.x - horizontalCameraSize) + scrollSize)
+		{
+			result = true;
+		}
+		
+		return result;
+	}
+	
+	bool mouseScrollRight()
+	{
+		bool result = false;
+		
+		Vector3 target = GetMousePosition();
+		
+		float scrollSize = (horizontalCameraSize / 100f) * mouseScrollPercent;
+		
+		if(target.x > (transform.position.x + horizontalCameraSize) - scrollSize)
+		{
+			result = true;
+		}
+		
+		return result;
+	}
+	
+	bool mouseScrollUp()
+	{
+		bool result = false;
+		
+		Vector3 target = GetMousePosition();
+		
+		float scrollSize = (verticalCameraSize / 100f) * mouseScrollPercent;
+		
+		if(target.y > (transform.position.y + verticalCameraSize) - scrollSize)
+		{
+			result = true;
+		}
+		
+		return result;
+	}
+	
+	bool mouseScrollDown()
+	{
+		bool result = false;
+		
+		Vector3 target = GetMousePosition();
+		
+		float scrollSize = (verticalCameraSize / 100f) * mouseScrollPercent;
+		
+		if(target.y < (transform.position.y - verticalCameraSize) + scrollSize)
+		{
+			result = true;
+		}
+		
+		return result;
+	}
+	
+	Vector3 GetMousePosition()
+	{
+		Ray mouseRay = Camera.main.ScreenPointToRay (Input.mousePosition);
+		
+		return mouseRay.origin;
 	}
 	
 	public void CenterCamera()
